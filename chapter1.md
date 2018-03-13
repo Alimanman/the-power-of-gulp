@@ -4,9 +4,11 @@
 ## Node.js
 
 [Node.js 中文网](http://nodejs.cn/)
-下载安装包，啪啪啪~~~
+下载安装包，安装啪啪啪~~~
 
-## NPM
+## NPM升级
+
+新版的nodejs已经集成了npm噢
 
 ```
 $ npm install -g npm
