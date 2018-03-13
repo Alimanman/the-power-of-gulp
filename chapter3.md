@@ -15,9 +15,6 @@ npm install --save-dev run-sequence
 ```js
 const gulp = require('gulp');
 const runSequence = require('run-sequence');
-require('require-dir')('./gulp_task', {//设置文件夹名字和位置
-    recurse: true
-});
 
 gulp.task('default', (callback) => {
     runSequence('build', 'init-dev-server', 'watch', callback);
