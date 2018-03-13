@@ -19,4 +19,12 @@ gulp.task('default', function() {
 });
 ```
 
+中端输入gulp
+
+```
+$ gulp
+```
+
+
+
 
