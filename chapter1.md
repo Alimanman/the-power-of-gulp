@@ -16,6 +16,8 @@ $ npm install -g npm
 
 ## Gulp.js
 
+[Gulp入门指南](https://www.gulpjs.com.cn/docs/getting-started/)
+
 ```
 $ npm install -g gulp
 ```
