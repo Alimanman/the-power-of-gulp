@@ -1,3 +1,7 @@
-# First Chapter
+# 必备环境
+---
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+## node.js
+
+[Node.js 中文网](http://nodejs.cn/)
+下载安装包，啪啪啪~~~
