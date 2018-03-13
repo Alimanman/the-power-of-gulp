@@ -1,7 +1,7 @@
 # 必备环境
 ---
 
-## node.js
+## Node.js
 
 [Node.js 中文网](http://nodejs.cn/)
 下载安装包，啪啪啪~~~
@@ -9,8 +9,17 @@
 ## NPM
 
 ```
-npm install npm -g
+$ npm install -g npm
 ```
+
+## Gulp.js
+
+```
+$ npm install -g gulp
+```
+
+
+
 
 
 
