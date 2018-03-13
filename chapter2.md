@@ -15,7 +15,7 @@ $ npm install --save-dev gulp
 var gulp = require('gulp');
 
 gulp.task('default', function() {
-    //
+    console.log('Hello World');
 });
 ```
 
