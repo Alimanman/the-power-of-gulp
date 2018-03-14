@@ -5,6 +5,6 @@
 * [2.Hello World](chapter2.md)
 * [3.同步执行任务](chapter3.md)
 * [4.管理tasks](chapter4.md)
-* chapter5
+* [5.pug](5pug.md)
 * chapter6
 

@@ -1,13 +1,14 @@
-# 管理tasks
+# pug
 ---
 
-## require-dir
+## pug
 
-https://www.npmjs.com/package/require-dir
+https://www.npmjs.com/package/pug
 gulp的各种task放在指定文件夹中，方便结构清晰。
 
 ```
-$ npm install require-dir
+$ npm install pug
+$ npm install pug-cli -g
 ```
 
 ## gulpfile.js配置

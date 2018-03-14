@@ -7,7 +7,7 @@ https://www.npmjs.com/package/run-sequence
 `run-sequence` 的作用就是控制多个任务进行顺序执行或者并行执行
 
 ```
-npm install --save-dev run-sequence
+$ npm install --save-dev run-sequence
 ```
 
 ## gulpfile.js配置
