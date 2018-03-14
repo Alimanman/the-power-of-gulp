@@ -26,7 +26,7 @@ gulp.task('pug', function buildHTML() {
         .pipe(pug({
             pretty: true
         }))
-        .pipe(gulp.dest('./dest/'));//html到处目录
+        .pipe(gulp.dest('./dest/'));//html导出目录
 });
 ```
 
