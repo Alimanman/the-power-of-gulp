@@ -13,12 +13,30 @@ npm install --save-dev run-sequence
 ## gulpfile.js配置
 
 ```js
-const gulp = require('gulp');
+var gulp = require('gulp');
 const runSequence = require('run-sequence');
 
 gulp.task('default', (callback) => {
-    runSequence('build', 'init-dev-server', 'watch', callback);
+    runSequence('one', 'two', 'three', callback);//设置运行顺序
 });
+
+gulp.task('one', function () {
+    return console.log('~one~');
+});
+gulp.task('two', function () {
+    return console.log('~two~');
+});
+gulp.task('three', function () {
+    return console.log('~three~');
+});
+```
+
+输出结果：
+
+```
+~one~
+~two~
+~three~
 ```
 
 
