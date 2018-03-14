@@ -21,7 +21,7 @@ $ npm install gulp-pug -g
 var gulp = require('gulp');
 var pug = require('gulp-pug');
 
-gulp.task('pug', function buildHTML() {
+gulp.task('pug', function () {
     return gulp.src('./src/*.pug')//pug目录
         .pipe(pug({
             pretty: true

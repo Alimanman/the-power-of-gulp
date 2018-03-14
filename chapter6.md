@@ -18,7 +18,7 @@ $ npm install gulp-sass --save-dev
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
-gulp.task('sass', function buildHTML() {
+gulp.task('sass', function () {
     return gulp.src('./src/*.scss')//scss目录
         .pipe(sass({
             outputStyle: 'compact'
