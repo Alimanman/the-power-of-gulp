@@ -20,11 +20,9 @@ var gulp = require('gulp');
 var sass = browserSync = require('browser-sync').create();
 
 gulp.task('init-dev-server', function () {
-    return gulp.src('./src/*.scss')//scss目录
-        .pipe(sass({
-            outputStyle: 'compact'
-        }).on('error', sass.logError))
-        .pipe(gulp.dest('./dest/css'));//css导出目录
+    browserSync.init({
+        server: './dest'
+    });
 });
 
 ```
