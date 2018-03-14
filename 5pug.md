@@ -4,29 +4,21 @@
 ## pug
 
 https://www.npmjs.com/package/pug
-gulp的各种task放在指定文件夹中，方便结构清晰。
+Pug原名不叫Pug，是大名鼎鼎的jade，后来由于商标的原因，改为Pug。
+使用缩进排列来方式来写html，功能强大。
 
 ```
 $ npm install pug
 $ npm install pug-cli -g
 ```
 
-## gulpfile.js配置
+## pug.js配置
+
+安装require-dir插件管理后，在gulp_task文件夹下新建一个pug.js
 
 ```js
-require('require-dir')('./gulp_task', {
-    recurse: true
-});
-```
-
-## task文件夹结构
-
-```
-+ gulp_task
-  - build.js
-  - sass.js
-  - watch.js
-  - ...
+const gulp = require('gulp');
+const pug = require('gulp-pug');
 ```
 
 
