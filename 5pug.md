@@ -17,11 +17,19 @@ $ npm install gulp-pug -g
 
 安装require-dir插件管理后，在gulp_task文件夹下新建一个pug.js
 
-
 ```js
-const gulp = require('gulp');
-const pug = require('gulp-pug');
+var gulp = require('gulp');
+var pug = require('gulp-pug');
+
+gulp.task('pug', function buildHTML() {
+    return gulp.src('./src/*.pug')//pug目录
+        .pipe(pug({
+            pretty: true
+        }))
+        .pipe(gulp.dest('./dest/'));//html到处目录
+});
 ```
+
 
 
 
