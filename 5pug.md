@@ -28,6 +28,8 @@ gulp.task('pug', function () {
 });
 ```
 
+> return是实现链式调用，类似jQuery。
+
 
 
 
