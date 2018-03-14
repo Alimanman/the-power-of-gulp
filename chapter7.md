@@ -31,6 +31,16 @@ module.exports = browserSync;//模块导出，便于其他组件使用
 
 ## gulp-watch
 
+http://www.browsersync.cn/docs/gulp-watch/
+监听文件变化
+
+```
+$ npm install --save-dev gulp-watch
+```
+
+
+
+
 
 
 
