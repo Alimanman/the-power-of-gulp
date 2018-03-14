@@ -7,7 +7,7 @@ https://www.npmjs.com/package/gulp-sass
 强大的css扩展语言，让css编写更效率。
 
 ```
-$ npm install gulp-sass --save-dev
+$ npm install --save-dev gulp-sass
 ```
 
 ## pug.js配置

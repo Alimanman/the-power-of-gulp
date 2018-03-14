@@ -7,7 +7,6 @@ http://www.browsersync.cn/docs/gulp/
 省时的浏览器同步测试工具。
 
 ```
-$ npm install -g browser-sync
 $ npm install --save-dev browser-sync
 ```
 
