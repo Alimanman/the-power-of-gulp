@@ -11,6 +11,8 @@ $ npm install --save-dev gulp
 
 2.生成package.json
 
+> 这个文件很重要，其他人拿到你的项目，可以直接通过`$ npm i`来安装所需要的依赖包。
+
 ```
 $ npm init
 ```
