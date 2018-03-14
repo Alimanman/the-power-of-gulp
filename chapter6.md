@@ -19,7 +19,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 gulp.task('sass', function buildHTML() {
-    return gulp.src('./src/*.sass')//sass目录
+    return gulp.src('./src/*.scss')//sass目录
         .pipe(sass({
             outputStyle: 'compact'
         }).on('error', sass.logError))
