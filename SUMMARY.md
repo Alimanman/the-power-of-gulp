@@ -6,5 +6,9 @@
 * [3.同步执行任务](chapter3.md)
 * [4.管理tasks](chapter4.md)
 * [5.优雅的编写html](5pug.md)
-* chapter6
+* [6.效率的编写css](chapter6.md)
+* chapter7
+* chapter8
+* chapter9
+* chapter10
 

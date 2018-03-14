@@ -1,7 +1,7 @@
-# 优雅的编写html
+# 效率的编写css
 ---
 
-## gulp-pug
+## gulp-sass
 
 https://www.npmjs.com/package/gulp-pug
 Pug原名不叫Pug，是大名鼎鼎的jade，后来由于商标的原因，改为Pug。
