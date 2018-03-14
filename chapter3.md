@@ -16,7 +16,7 @@ $ npm install --save-dev run-sequence
 var gulp = require('gulp');
 const runSequence = require('run-sequence');
 
-gulp.task('default', (callback) => {
+gulp.task('default', function(callback) {
     runSequence('one', 'two', 'three', callback);//设置运行顺序
 });
 
