@@ -47,11 +47,11 @@ var gulp = require('gulp');
 var watch = require('gulp-watch');
 
 gulp.task('watch', function () {
-    watch('src/*.scss', function () {
+    watch('src/*.scss', function () {//监听scss
         gulp.start('sass');
     });
 
-    watch('src/*.pug', function () {
+    watch('src/*.pug', function () {//监听pug
         gulp.start('pug');
     });
 });
