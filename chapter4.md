@@ -1,10 +1,10 @@
-# 管理tasks
+# 管理任务
 ---
 
 ## require-dir
 
 https://www.npmjs.com/package/require-dir
-gulp的各种task放在指定文件夹中，方便结构清晰。
+gulp的各种任务（task）放在指定文件夹中，方便结构清晰。
 
 ```
 $ npm install --save-dev require-dir
