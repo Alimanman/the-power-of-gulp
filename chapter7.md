@@ -38,6 +38,25 @@ https://www.npmjs.com/package/gulp-watch/
 $ npm install --save-dev gulp-watch
 ```
 
+## watch.js配置
+
+安装require-dir插件管理后，在gulp_task文件夹下新建一个watch.js
+
+```js
+var gulp = require('gulp');
+var watch = require('gulp-watch');
+
+gulp.task('watch', function () {
+    watch('src/*.scss', function () {
+        gulp.start('sass');
+    });
+
+    watch('src/*.pug', function () {
+        gulp.start('pug');
+    });
+});
+```
+
 
 
 
