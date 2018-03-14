@@ -27,6 +27,10 @@ gulp.task('init-dev-server', function () {
 module.exports = browserSync;//模块导出，便于其他组件使用
 ```
 
+---
+
+## gulp-watch
+
 
 
 
