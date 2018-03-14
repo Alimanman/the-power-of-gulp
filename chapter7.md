@@ -17,7 +17,7 @@ $ npm install --save-dev browser-sync
 
 ```js
 var gulp = require('gulp');
-var sass = browserSync = require('browser-sync').create();
+var browserSync = require('browser-sync').create();
 
 gulp.task('init-dev-server', function () {
     browserSync.init({
