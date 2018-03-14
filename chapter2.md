@@ -9,7 +9,13 @@
 $ npm install --save-dev gulp
 ```
 
-2.在项目根目录下创建一个名为 `gulpfile.js` 的文件
+2.生成package.json
+
+```
+$ npm init
+```
+
+3.在项目根目录下创建一个名为 `gulpfile.js` 的文件
 
 ```js
 var gulp = require('gulp');
@@ -19,7 +25,7 @@ gulp.task('default', function() {
 });
 ```
 
-3.中端输入gulp
+4.中端输入gulp
 
 ```
 $ gulp
