@@ -3,7 +3,7 @@
 
 ## pug
 
-https://www.npmjs.com/package/pug
+https://www.npmjs.com/package/gulp-pug
 Pug原名不叫Pug，是大名鼎鼎的jade，后来由于商标的原因，改为Pug。
 使用缩进排列来方式来写html，功能强大。
 
