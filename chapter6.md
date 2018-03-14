@@ -18,6 +18,13 @@ $ npm install gulp-sass --save-dev
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
+gulp.task('sass', function buildHTML() {
+    return gulp.src('./src/*.sass')//sass目录
+        .pipe(pug({
+            pretty: true
+        }))
+        .pipe(gulp.dest('./dest/css'));//html导出目录
+});
 
 ```
 
