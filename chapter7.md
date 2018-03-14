@@ -3,7 +3,7 @@
 
 ## browser-sync
 
-http://www.browsersync.cn/
+http://www.browsersync.cn/docs/gulp/
 省时的浏览器同步测试工具。
 
 ```
