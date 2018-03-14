@@ -23,7 +23,7 @@ gulp.task('sass', function buildHTML() {
         .pipe(pug({
             pretty: true
         }))
-        .pipe(gulp.dest('./dest/css'));//html导出目录
+        .pipe(gulp.dest('./dest/css'));//css导出目录
 });
 
 ```
