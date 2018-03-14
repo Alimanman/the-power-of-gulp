@@ -9,8 +9,6 @@ Pug原名不叫Pug，是大名鼎鼎的jade，后来由于商标的原因，改�
 
 ```
 $ npm install --save-dev pug
-$ npm install --save-dev pug-cli -g
-$ npm install --save-dev gulp-pug -g
 ```
 
 ## pug.js配置
