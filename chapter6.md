@@ -20,9 +20,9 @@ var sass = require('gulp-sass');
 
 gulp.task('sass', function buildHTML() {
     return gulp.src('./src/*.sass')//sass目录
-        .pipe(pug({
-            pretty: true
-        }))
+        .pipe(sass({
+            outputStyle: 'compact'
+        }).on('error', sass.logError))
         .pipe(gulp.dest('./dest/css'));//css导出目录
 });
 
