@@ -7,7 +7,7 @@
 * [4.管理tasks](chapter4.md)
 * [5.优雅的编写html](5pug.md)
 * [6.效率的编写css](chapter6.md)
-* chapter7
+* [7.实时刷新页面](chapter7.md)
 * chapter8
 * chapter9
 * chapter10
