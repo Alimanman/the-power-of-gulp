@@ -14,7 +14,7 @@
 
 ```js
 gulp.task('default', (callback) => {
-    runSequence('clean', ['pug', 'sass'], 'init-dev-server', 'watch', callback);
+    runSequence('clean', ['pug', 'sass', 'copy'], 'init-dev-server', 'watch', callback);
 });
 ```
 ---
