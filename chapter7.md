@@ -79,6 +79,23 @@ gulp.task('pug', function () {
 });
 ```
 
+```js
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var browserSync = require('./dev-server');
+
+gulp.task('sass', function L() {
+    return gulp.src('./src/*.scss')
+        .pipe(sass({
+            outputStyle: 'compact'
+        }).on('error', sass.logError))
+        .pipe(gulp.dest('./dest/css'))
+        .pipe(browserSync.stream({ match: '**/*.css' }));
+});
+```
+
+2中监听方法都可以实现监听刷新。
+
 
 
 
