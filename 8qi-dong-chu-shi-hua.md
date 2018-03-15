@@ -50,6 +50,7 @@ gulp.task('clean', function () {
 ## gulp.dest
 
 使用gulp内置的dest写入文件来拷贝
+同样，在gulp_task文件夹下新建一个copy.js
 
 ```js
 var gulp = require('gulp');
