@@ -42,3 +42,12 @@ gulp.task('clean', function () {
     return del('./dest');//直接删除dest文件夹
 });
 ```
+
+然后我们来建立copy任务。
+
+---
+
+## gulp.dest
+
+使用gulp内置的拷贝方法
+
