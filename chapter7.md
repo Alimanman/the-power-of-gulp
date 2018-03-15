@@ -5,6 +5,7 @@
 
 http://www.browsersync.cn/docs/gulp/
 省时的浏览器同步测试工具。
+监听html，结构必须符合标准，否则可能无法实施刷新。
 
 ```
 $ npm install --save-dev browser-sync
