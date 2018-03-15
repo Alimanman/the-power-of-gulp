@@ -55,6 +55,13 @@ gulp.task('watch', function () {
     watch('src/*.pug', function () {//监听pug
         gulp.start('pug');
     });
+    
+    watch([
+        './src/**/*',//更多其他文件
+        './src/**/*.js'//监听js
+    ], function () {
+        gulp.start('copy');
+    });
 });
 ```
 
