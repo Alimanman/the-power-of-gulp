@@ -26,6 +26,6 @@ const gulp = require('gulp');
 const del = require('del');
 
 gulp.task('clean', function () {
-    return del('dest');
+    return del('./dest');//直接删除dest文件夹
 });
 ```
