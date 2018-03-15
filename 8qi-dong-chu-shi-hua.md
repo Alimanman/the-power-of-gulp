@@ -49,5 +49,7 @@ gulp.task('clean', function () {
 
 ## gulp.dest
 
-使用gulp内置的拷贝方法
+使用gulp内置的dest写入文件来拷贝
+
+
 
