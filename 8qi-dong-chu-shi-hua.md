@@ -9,4 +9,24 @@
 4. 压缩图片（生产环境）
 5. 拷贝copy
 
-##
+## del
+
+https://www.npmjs.com/package/del
+
+```
+$ npm install --save-dev del
+```
+
+## clean.js配置
+
+安装require-dir插件管理后，在gulp_task文件夹下新建一个clean.js
+
+```js
+const gulp = require('gulp');
+const del = require('del');
+
+// task
+gulp.task('clean', function () {
+  return del(config.path.dest);
+});
+```
