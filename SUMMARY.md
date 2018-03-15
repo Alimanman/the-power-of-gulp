@@ -8,7 +8,7 @@
 * [5.优雅的编写html](5pug.md)
 * [6.效率的编写css](chapter6.md)
 * [7.实时刷新页面](chapter7.md)
-* chapter8
+* [8.启动初始化](8qi-dong-chu-shi-hua.md)
 * chapter9
 * chapter10
 
