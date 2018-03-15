@@ -9,6 +9,6 @@
 * [6.效率的编写css](chapter6.md)
 * [7.实时刷新页面](chapter7.md)
 * [8.启动初始化](8qi-dong-chu-shi-hua.md)
-* chapter9
+* [9.图片压缩](9tu-pian-ya-suo.md)
 * chapter10
 
