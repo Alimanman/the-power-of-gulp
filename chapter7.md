@@ -57,6 +57,29 @@ gulp.task('watch', function () {
 });
 ```
 
+---
+
+## pug和sass添加watch
+
+```js
+var gulp = require('gulp');
+var pug = require('gulp-pug');
+var browserSync = require('./dev-server');
+
+gulp.task('pug', function () {
+    return gulp.src('./src/*.pug')
+        .pipe(pug({
+            pretty: true
+        }))
+        .pipe(gulp.dest('./dest/'))
+        .on('end', function () {
+            browserSync.reload();
+        });
+});
+```
+
+
+
 
 
 
