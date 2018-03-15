@@ -17,6 +17,9 @@ gulp.task('default', (callback) => {
     runSequence('clean', ['pug', 'sass', 'copy'], 'init-dev-server', 'watch', callback);
 });
 ```
+
+pug和sass已有了，先来建立clean任务。
+
 ---
 
 ## del
