@@ -59,7 +59,7 @@ gulp.task('watch', function () {
 
 ---
 
-## pug和sass添加watch
+## pug和sass调用browserSync
 
 ```js
 var gulp = require('gulp');
