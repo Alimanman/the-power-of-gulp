@@ -51,5 +51,30 @@ gulp.task('clean', function () {
 
 使用gulp内置的dest写入文件来拷贝
 
+```js
+var gulp = require('gulp');
+
+gulp.task('copy', function () {
+    gulp.start('copy-images');//集合处理
+    gulp.start('copy-js');
+});
+
+gulp.task('copy-images', function () {
+    gulp.src('./src/images/**/*', {//文件夹内没内容，不会拷贝
+        base: './src'
+    })
+        .pipe(gulp.dest('./dest'));
+});
+
+gulp.task('copy-js', function () {
+    gulp.src('./src/js/**/*', {//文件夹内没内容，不会拷贝
+        base: './src'
+    })
+        .pipe(gulp.dest('./dest'));
+});
+```
+
+
+
 
 
