@@ -9,6 +9,13 @@
 4. 压缩图片（生产环境）
 5. 拷贝copy，复制html和css以外的内容
 
+先看gulefile.js的default部分的最终代码
+
+```js
+gulp.task('default', (callback) => {
+    runSequence('build', 'init-dev-server', 'watch', callback);
+});
+```
 ---
 
 ## del
