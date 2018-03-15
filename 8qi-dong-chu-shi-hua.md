@@ -27,6 +27,6 @@ const del = require('del');
 
 // task
 gulp.task('clean', function () {
-  return del('dest');
+    return del('dest');
 });
 ```
