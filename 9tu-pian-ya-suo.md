@@ -14,7 +14,7 @@ https://www.npmjs.com/package/gulp-imagemin
 $ npm install --save-dev gulp-imagemin
 ```
 
-## sass.js配置
+## imagemin.js配置
 
 安装require-dir插件管理后，在gulp_task文件夹下新建一个imagemin.js
 
