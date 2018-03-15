@@ -9,6 +9,8 @@
 4. 压缩图片（生产环境）
 5. 拷贝copy，复制html和css以外的内容
 
+---
+
 ## del
 
 https://www.npmjs.com/package/del
