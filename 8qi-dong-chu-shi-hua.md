@@ -35,8 +35,8 @@ $ npm install --save-dev del
 安装require-dir插件管理后，在gulp_task文件夹下新建一个clean.js
 
 ```js
-const gulp = require('gulp');
-const del = require('del');
+var gulp = require('gulp');
+var del = require('del');
 
 gulp.task('clean', function () {
     return del('./dest');//直接删除dest文件夹
