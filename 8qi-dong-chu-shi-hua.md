@@ -25,7 +25,6 @@ $ npm install --save-dev del
 const gulp = require('gulp');
 const del = require('del');
 
-// task
 gulp.task('clean', function () {
     return del('dest');
 });
