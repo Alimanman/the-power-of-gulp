@@ -8,6 +8,7 @@
 * [5.优雅的编写html](chapter5.md)
 * [6.效率的编写css](chapter6.md)
   * [6.2.提高代码容错能力](chapter6/62.md)
+  * [6.3.规范sass](chapter6/63.md)
 * [7.实时刷新页面](chapter7.md)
 * [8.启动初始化](chapter8.md)
 * [9.图片压缩](chapter9.md)
