@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [开头](README.md)
 * [1.必备环境](chapter1.md)
 * [2.Hello World](chapter2.md)
 * [3.同步执行任务](chapter3.md)
@@ -13,5 +13,5 @@
 * [7.实时刷新页面](chapter7.md)
 * [8.启动初始化](chapter8.md)
 * [9.图片压缩](chapter9.md)
-* [chapter10](chapter10.md)
+* [结尾](chapter10.md)
 
