@@ -13,5 +13,5 @@
 * [7.实时刷新页面](chapter7.md)
 * [8.启动初始化](chapter8.md)
 * [9.图片压缩](chapter9.md)
-* [结尾](chapter10.md)
+* [10.结尾](chapter10.md)
 
